@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Philoniare App Portfolio</string>
+    <string name="action_settings">Settings</string>
+    <string name="p1_text">Popular Movies</string>
+    <string name="p2_text">Super Duo!</string>
+    <string name="p3_text">Build it Bigger</string>
+    <string name="p4_text">Material App</string>
+    <string name="p5_text">Go Ubiquitous</string>
+    <string name="p6_text">Capstone App</string>
+</resources>

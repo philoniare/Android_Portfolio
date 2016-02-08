@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.philoniare.myappportfolio.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:paddingTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Portfolio"
+            android:textSize="20dp"
+            android:paddingBottom="20dp"
+            android:text="My Android Portfolio" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnP1"
+            android:background="#F44336"
+            android:minWidth="250dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/p1_text"></Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnP2"
+            android:background="#F44336"
+            android:minWidth="250dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/p2_text"></Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnP3"
+            android:background="#F44336"
+            android:minWidth="250dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/p3_text"></Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnP4"
+            android:background="#F44336"
+            android:minWidth="250dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/p4_text"></Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnP5"
+            android:background="#F44336"
+            android:minWidth="250dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/p5_text"></Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnP6"
+            android:minWidth="250dp"
+            android:background="#1976D2"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:text="@string/p6_text"></Button>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:elevation="6dp"
+        android:src="@android:drawable/ic_dialog_email" />
+
+</FrameLayout>
+
+
